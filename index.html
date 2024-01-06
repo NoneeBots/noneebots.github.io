@@ -1,12 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
+    
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- FontAwesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>NoneeBots</title>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("base_line_header.html"); 
+      $("#footer").load("base_line_footer.html"); 
+    });
+    </script> 
+
 </head>
-<body>
-    <h1>NoneeBots Coming Soon....</h1>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <!-- header -->
+    <div id="header"></div>
+
+    <!-- Index.html -->
+    <div id="section1" class="container-fluid">
+      <h1 id="dynamicHeading">Your Socials, your rules, our boost</h1>
+      <h4>Unlock real followers, real engagement – Let our Bots elevate your Digital presence naturally.</h4>
+    </div>
+    
+    <div id="section2" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+          <p>
+            <h4 style="display: inline-block;">NoneeBots,</h4> a cutting-edge software agency dedicated to revolutionizing business efficiency through innovative automation solutions. At Noneebots, we specialize in empowering small and medium-sized enterprises (SMEs) with bespoke automation technologies that seamlessly integrate into their existing workflows, allowing them to scale operations and maximize outreach.
+          </p>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+    </div>
+
+    <div id="section3" class="container-fluid">
+      <h1>Best Selling Product</h1>
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+          <p> <h4 style="display: inline-block;">InstaOdyssey</h4> - <img class="img-fluid" src="./imgs/InstaOdysseyLogo.png" style="max-width: 10%;">
+            a groundbreaking product designed to redefine your brand's impact on Instagram. Seamlessly integrating the power of machine learning and artificial intelligence, InstaOdyssey is not just a tool; it's an intelligent companion that propels your small and medium-sized enterprise (SME) into a new era of targeted marketing.
+            It stands out by utilizing advanced algorithms to interact with users based on hashtags, location, and targeted accounts within your niche.
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <img class="img-fluid" src="./imgs/instaOdyssey.png">
+        </div>
+      </div>
+    </div>
+
+    <div id="section4" class="container-fluid">
+      <h1>Pricing</h1>
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+          <h2>Enterprise</h4>
+          <h4>InstaOdyssey</h4>
+          <h6>Unlimited usage on both Windows and Linux OS</h6>
+          <h1><s>7,999$</s></h1>
+          <h1>4,999$</h1>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+    </div>
+
+  <!-- Contact Form -->
+
+    <div id="contact" class="container-fluid contactouter">
+      <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4 contactinner">
+              <h1>Inquiry Hub</h1>
+              <form action="https://abdullahzamanbabar.pythonanywhere.com/corporateapp/contact" method="POST">
+                  <label for="fname">Full Name</label>
+                  <input type="text" id="fname" name="fullname" placeholder="Your Name" required>
+
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="emailaddress" placeholder="you@email.com" required>
+
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Write a Message" required></textarea>
+
+                  <input type="submit" value="Submit" onclick="contact(document.getElementById('fname').value, document.getElementById('email').value, document.getElementById('message').value)">
+
+                </form>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer"></div>
+  
+    <!-- Custom JS -->
+    <script src="./js/dynamicHeading.js"></script>
+    <script src="./js/theme.js"></script>
+    <script src="./js/contact.js"></script>
 </body>
 </html>

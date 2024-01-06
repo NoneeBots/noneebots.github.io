@@ -1,3 +1,77 @@
-h1 {
-    color: pink;
+body {
+    position: relative; 
+}
+
+#logo-img {
+    width: 10%;
+}
+
+.nav-item {
+    padding-top:2%;
+}
+
+nav {
+    border-bottom-style: solid;
+    border-color: white;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#section1 {
+    text-align: center;
+    padding-top: 7%;
+}
+
+#section1 h4{
+    padding-top: 2%;
+}
+
+#section2 {
+    padding-top: 3%;
+    text-align: justify;
+}
+
+#section3 {
+    padding-top: 3%;
+    text-align: justify;
+}
+
+#section3 h1{
+    text-align: center;
+}
+
+#dynamicHeading {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#section4 h1{
+    text-align: center;
+}
+
+#section5 h1{
+    text-align: center;
+}
+
+#themeChange{
+    text-align: center;
+    font-size: 150%;
+}
+
+#sun {
+    color: #f97316;
+}
+
+#moon {
+    color: #f97316;
+}
+
+#sun:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#moon:hover{
+    opacity: 0.3;
+    cursor: pointer;
 }
