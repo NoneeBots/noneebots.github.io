@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit&display=swap');
+
+.row {
+    /* border:solid;     */
+    margin-top: 5% !important;
+}
+
+.col-sm-6 {
+    /* border:solid; */
+    text-align: center;
+}
+
+.col-sm-6 p{
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 3%;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    /* hyphens: auto; */
+}
+
+.col-sm-6 h2{
+    background: linear-gradient(to right, #11998E , #38EF7D);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: fit-content;
+    padding:1%;
+    font-size:x-large;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* By setting margin: 0 auto;, you instruct the browser to automatically calculate the left and right margins, effectively centering the heading within the container.  */
+
+.col-sm-6 img {
+    max-width: 250px;
+    margin-top:5%;
+}
+
+@media screen and (max-width: 1144px) {
+    .col-sm-6 p{
+        padding: 0;
+    }
+}

@@ -17,12 +17,12 @@
     border:solid;
 } */
 
-.contactinner h1 {
+/* .contactinner h1 {
     margin-top:4%;
     text-align: center;
+    color: #2d3436;
     font-family: 'Cinzel Decorative';
-    /* color: #2d3436; */
-}
+} */
 
 form {
     font-family: 'Roboto', sans-serif;
@@ -75,8 +75,10 @@ input[type=submit] {
     padding:1%;
     float:right;
     text-align: center;
-    background-color:#f9daa7;
-    border-color: #f9daa7;
+    /* background-color:#f9daa7;
+    border-color: #f9daa7; */
+    background-color: #37ed7d;
+    border-color: #37ed7d;
     color: #2e4f4f;
     font-weight:bold;
     margin-top: -1% !important;

@@ -2,9 +2,9 @@ const url = 'https://abdullahzamanbabar.pythonanywhere.com/corporateapp/contact'
 
 function contact(fullname, email, message) {
 
-    console.log(fullname)
-    console.log(email)
-    console.log(message)
+    // console.log(fullname)
+    // console.log(email)
+    // console.log(message)
     
     const formData = new URLSearchParams();
     formData.append('fullname', fullname);

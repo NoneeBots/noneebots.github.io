@@ -1,0 +1,21 @@
+div .headingTopic {
+    /* background: linear-gradient(to right, #eecda3, #ef629f);
+    background: linear-gradient(to right, #fd746c, #ff9068);
+    background: #ed1e79; background: -moz-linear-gradient(to right,  #ed1e79 0%,#662d8c 100%); background: -webkit-linear-gradient(to right,  #ed1e79 0%,#662d8c 100%); background: linear-gradient(to right,  #ed1e79 0%,#662d8c 100%);
+    background: #fcce78; background: -moz-linear-gradient(to right,  #fcce78 0%,#7e2d02 100%); background: -webkit-linear-gradient(to right,  #fcce78 0%,#7e2d02 100%); background: linear-gradient(to right,  #D4145A 0%,#FBB03B 100%); */
+    background: linear-gradient(to right, #11998E , #38EF7D);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: fit-content;
+    padding:1%;
+    font-size:x-large;
+}
+
+.heading {
+    text-align: -webkit-center;
+}
+
+/* .head {
+    text-align: -webkit-center; 
+    border:solid;
+} */

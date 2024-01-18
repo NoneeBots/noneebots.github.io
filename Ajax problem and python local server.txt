@@ -1,0 +1,7 @@
+Including base html files into another html file through Ajax is not permissiable on local computer. Rather we need a local server for it to work.
+
+For python3
+
+python -m http.server 8080
+
+http://localhost:8080/

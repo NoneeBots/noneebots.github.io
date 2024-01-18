@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit&display=swap');
+
 body {
     position: relative; 
+    font-family: 'Kanit', sans-serif !important;
+    font-size: large;
 }
 
+
 #logo-img {
-    width: 10%;
+    width: 250px;
+    padding-top: 1%;
 }
 
 .nav-item {
@@ -17,12 +23,12 @@ nav {
     border-bottom-right-radius: 5%;
 }
 
-#section1 {
+#home {
     text-align: center;
     padding-top: 7%;
 }
 
-#section1 h4{
+#home h4{
     padding-top: 2%;
 }
 
@@ -43,6 +49,12 @@ nav {
 #dynamicHeading {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+    /* color: #7BD3EA; */
+    background: linear-gradient(to right, #f32170, 
+    #ff6b08, #cf23cf, #eedd44); 
+    -webkit-text-fill-color: transparent;
+    background-clip:border-box;
+    -webkit-background-clip: text; 
 }
 
 #section4 h1{
@@ -74,4 +86,45 @@ nav {
 #moon:hover{
     opacity: 0.3;
     cursor: pointer;
+}
+
+.pricing {
+    border: solid;
+    /* border-image: linear-gradient(to right, #D4145A ,#FBB03B);
+    border-image: linear-gradient(to right, #662D8C ,#ED1E79); */
+    border-image: linear-gradient(to right, #FF512F ,#DD2476);
+    border-image-slice: 1;
+    padding-top: 3%;
+}
+
+.pricing ul{
+    list-style: none;
+    list-style: square inside url('../imgs/red-check.png');
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.pricing h4{
+    text-align: center;
+}
+
+.pricingHead {
+    text-align: center;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 580px) {
+    .nav-item{
+        display:none;
+    }
+
+    #themeChange{
+        text-align: center;
+        font-size: 150%;
+        float: right;
+    }
+
+    .pricing {
+        border-right-style: solid !important;
+    }
 }
