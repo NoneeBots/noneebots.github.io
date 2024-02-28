@@ -48,6 +48,7 @@ nav {
 
 #dynamicHeading {
     opacity: 1;
+    height: 70px;
     transition: opacity 0.5s ease-in-out;
     /* color: #7BD3EA; */
     background: linear-gradient(to right, #f32170, 
@@ -128,7 +129,7 @@ nav {
         border-right-style: solid !important;
     }
 
-    #dynamicHeading {
+    /* #dynamicHeading {
         height: 70px;
-    }
+    } */
 }
