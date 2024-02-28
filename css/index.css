@@ -127,4 +127,8 @@ nav {
     .pricing {
         border-right-style: solid !important;
     }
+
+    #dynamicHeading {
+        height: 70px;
+    }
 }
